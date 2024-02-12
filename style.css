@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins";
+    list-style: none;
 }
 
 header{
@@ -26,4 +27,20 @@ nav{
 .nav-menus{
     display: flex;
     align-items: center;
+}
+
+/* Section fav */
+.anime-movies{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#08091B, #5675A9);
+}
+.anime-movies .container{
+    padding: 32px;
+    border-radius: 16px;
+    border: solid white;
+    color: white;
+    font-size: 2rem;
 }
