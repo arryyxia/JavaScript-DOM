@@ -38,6 +38,11 @@ nav{
     background: linear-gradient(#08091B, #5675A9);
 }
 .anime-movies .container{
+    display: flex;
+}
+.anime-movies .my-favorite{
+    margin: 10px;
+    width: 400px;
     padding: 32px;
     border-radius: 16px;
     border: solid white;
@@ -51,4 +56,5 @@ nav{
     color: rgba(0, 0, 0);
     text-align: center;
     border-radius: 16px;
+    font-size: 1.5rem;
 }
