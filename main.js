@@ -18,5 +18,6 @@
 // console.log(container);
 
 // 5. quearySelectorAll()
-const container = document.querySelectorAll('div');
-console.log(container);
+// const container = document.querySelectorAll('div');
+// console.log(container);
+
