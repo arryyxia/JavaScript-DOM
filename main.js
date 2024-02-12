@@ -29,11 +29,25 @@
 
 // const listItems = document.querySelectorAll('.list-item');
 // css property written with camel case
-
+// Also, for styiling selector all, you need for loop.
 // for ( let i = 0; i < listItems.length; i++){
 //     listItems[i].style.fontSize = '1em';
 // }
 
 
 // ++== Creating Elements ==++
-console.log();
+const ul = document.querySelector('ul');
+const li = document.createElement('li');
+
+// adding elements
+ul.append(li)
+li.innerText = "Tricked into becoming the heroine's stepmother"
+
+// modifying the text/content
+// const firstListItem = document.querySelector('.list-item');
+
+// innerText, innerHTML, and textConeten
+// console.log(firstListItem.innerText);
+// inner html has an security issue
+// console.log(firstListItem.innerHTML);
+// console.log(firstListItem.textContent);
