@@ -21,7 +21,8 @@
 // const container = document.querySelectorAll('div');
 // console.log(container);
 
-// == styiling an element ==
+// ++== styiling an elements ==++
+
 // const title = document.querySelector('#main-heading');
 // inline styling *1 0 0 0
 // title.style.color = '#00f';
@@ -33,4 +34,6 @@
 //     listItems[i].style.fontSize = '1em';
 // }
 
+
+// ++== Creating Elements ==++
 console.log();
