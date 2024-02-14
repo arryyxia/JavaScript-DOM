@@ -44,10 +44,29 @@ ul.append(li)
 li.innerText = "Tricked into becoming the heroine's stepmother"
 
 // modifying the text/content
-// const firstListItem = document.querySelector('.list-item');
+const firstListItem = document.querySelector('.list-item');
 
-// innerText, innerHTML, and textConeten
+// --- innerText, innerHTML, and textConeten ---
 // console.log(firstListItem.innerText);
 // inner html has an security issue
 // console.log(firstListItem.innerHTML);
 // console.log(firstListItem.textContent);
+
+// ++== Modifying elements attributes & Classes
+li.setAttribute('class', 'list-item');
+// remove attribut to make it back to default settings
+// li.removeAttribute('id')
+
+// const title = document.querySelector('#main-heading');
+// console.log(title.getAttribute('id'))
+
+// --for the class just replace id with class i think
+
+// remove element
+// li.remove();
+
+// ++== HOW TO NAVIGATE THE DOM ==++
+function pangkat(c,a,b){
+    let d = a ** b * c;
+    return d;
+}
