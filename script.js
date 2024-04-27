@@ -1,7 +1,13 @@
 // DOM selection
 
-let title = document.getElementById('judul')
+// getElementById()
+const title = document.getElementById('judul');
 
-title.style.color = 'red';
+title.style.color = 'white';
+title.style.backgroundColor = 'grey';
+title.innerHTML = 'Brody';
 
-console.log('hello world')
+// getElementsByTagName()
+// const 
+
+// console.log('hello world')
