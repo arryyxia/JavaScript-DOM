@@ -36,15 +36,15 @@
 
 
 // ++== Creating Elements ==++
-const ul = document.querySelector('ul');
-const li = document.createElement('li');
+// const ul = document.querySelector('ul');
+// const li = document.createElement('li');
 
-// adding elements
-ul.append(li)
-li.innerText = "Tricked into becoming the heroine's stepmother"
+// // adding elements
+// ul.append(li)
+// li.innerText = "Tricked into becoming the heroine's stepmother"
 
-// modifying the text/content
-const firstListItem = document.querySelector('.list-item');
+// // modifying the text/content
+// const firstListItem = document.querySelector('.list-item');
 
 // --- innerText, innerHTML, and textConeten ---
 // console.log(firstListItem.innerText);
@@ -53,7 +53,7 @@ const firstListItem = document.querySelector('.list-item');
 // console.log(firstListItem.textContent);
 
 // ++== Modifying elements attributes & Classes
-li.setAttribute('class', 'list-item');
+// li.setAttribute('class', 'list-item');
 // remove attribut to make it back to default settings
 // li.removeAttribute('id')
 
@@ -66,7 +66,7 @@ li.setAttribute('class', 'list-item');
 // li.remove();
 
 // ++== HOW TO NAVIGATE THE DOM ==++
-function pangkat(c,a,b){
-    let d = a ** b * c;
-    return d;
-}
+// function pangkat(c,a,b){
+//     let d = a ** b * c;
+//     return d;
+// }
