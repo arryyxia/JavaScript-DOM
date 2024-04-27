@@ -8,6 +8,11 @@ title.style.backgroundColor = 'grey';
 title.innerHTML = 'Brody';
 
 // getElementsByTagName()
-// const 
+const paragraph = document.getElementsByTagName('p');
 
-// console.log('hello world')
+for (let i = 0; i <= 3; i++){
+    paragraph[i].style.backgroundColor = 'gray';
+}
+
+
+console.log(paragraph)
